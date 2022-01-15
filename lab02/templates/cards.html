@@ -1,0 +1,14 @@
+<body>
+    <div class="card">
+        <!-- <p>Search location: {{city}}</p>
+        <p>Search term: {{search_term or 'None Specified'}}</p>
+        <p>Data: {{ restaurants }}</p> -->
+        <h2 class="name">{{ restaurant['name'] }}</h2>
+        <img src="{{ restaurant['image_url'] }}" alt="restaurant picture" />
+        <p class="address">Address: {{ restaurant['display_address'] }}</p>
+        <p>Price: {{ restaurant['price'] }}</p>
+        <p>Rating: {{ restaurant['rating'] }}</p>
+        <p># of Reviews: {{ restaurant['review_count'] }}</p>
+        <!-- <h2>Top Restaurant:</h2>  -->
+    </div>
+</body>
